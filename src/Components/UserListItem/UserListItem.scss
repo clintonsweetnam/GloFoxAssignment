@@ -1,0 +1,42 @@
+@import "./../../SassSettings/Colours.scss";
+
+$font-size:11px;
+
+.user-list-item{
+  font-size:$font-size;
+  font-weight: 500;
+  color:$light-blue-color;
+  .name{
+    font-weight: 700;
+    color:$dark-blue-color;
+  }
+  .email{
+    font-size: 9px;
+    color:$light-blue-color;
+  }
+  .credits{
+    font-size:$font-size;
+    color:$dark-blue-color;
+  }
+  .btn-default{
+    background:#CDEAFA;
+    color:#3B577E;
+    font-size: $font-size;
+    font-weight: 700;
+    border:$light-blue-color;
+    margin: 0px 3px;
+  }
+  .table>tbody>tr>td{
+    vertical-align: middle;
+  }
+  .image-cropper {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+}
