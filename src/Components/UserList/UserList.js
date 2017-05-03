@@ -38,7 +38,6 @@ class UserList extends Component {
     ApiClient.getUsers(start, limit, function(data){
       var users = self.state.users;
       data.forEach(function(item){
-        console.log(item);
         if(item.User.credits_left === 'N_A')
           item.User.credits_left = '0'
 
